@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "commonjs",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "noImplicitUseStrict": true,
+        "outDir": "lib"
+    },
+    "exclude": ["node_modules", "tests", "lib"],
+    "include": ["src"]
+}

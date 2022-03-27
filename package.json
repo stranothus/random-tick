@@ -3,17 +3,20 @@
   "version": "1.0.0",
   "description": "Create a NodeJS event emitter which emits an event on a slightly random interval",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "node tests/index.js",
     "build": "tsc"
   },
   "keywords": [
-      "event",
-      "emitter",
-      "random",
-      "tick"
+    "event",
+    "emitter",
+    "random",
+    "tick"
   ],
   "author": "Quinn Gibson",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  }
 }

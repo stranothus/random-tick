@@ -1,4 +1,4 @@
-import RandomTick from "../lib/index.js";
+const { RandomTick } = require("../lib/index.js");
 
 const tick = new RandomTick();
 
